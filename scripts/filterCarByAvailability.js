@@ -1,4 +1,5 @@
 function filterCarByAvailability(cars) {
+  
   // Sangat dianjurkan untuk console.log semua hal hehe
   console.log(cars);
 
@@ -13,5 +14,5 @@ function filterCarByAvailability(cars) {
   }
 
   // Rubah code ini dengan array hasil filter berdasarkan availablity
-  return result ? result : 'no available car';
+  return result.length ? result : 'no available car';
 }
